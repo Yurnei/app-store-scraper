@@ -1,6 +1,6 @@
 {
   "name": "app-store-scraper",
-  "version": "0.16.4",
+  "version": "0.16.5",
   "description": "scrape data from the itunes app store",
   "main": "index.js",
   "scripts": {
@@ -40,5 +40,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "mocha": "^6.2.2",
     "validator": "^5.2.0"
-  }
+  },
+  "private": true
 }
