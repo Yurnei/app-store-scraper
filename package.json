@@ -1,6 +1,6 @@
 {
   "name": "app-store-scraper",
-  "version": "0.16.6",
+  "version": "0.16.7",
   "description": "scrape data from the itunes app store",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/facundoolano/app-store-scraper.git"
+    "url": "git+https://github.com/Yurnei/app-store-scraper"
   },
   "keywords": [
     "mac",
@@ -20,9 +20,9 @@
   "author": "Facundo Olano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/facundoolano/app-store-scraper/issues"
+    "url": "https://github.com/Yurnei/app-store-scraper/issues"
   },
-  "homepage": "https://github.com/facundoolano/app-store-scraper#readme",
+  "homepage": "https://github.com/Yurnei/app-store-scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "debug": "^2.2.0",

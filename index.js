@@ -3,7 +3,7 @@
 const R = require('ramda');
 const memoizee = require('memoizee');
 const constants = require('./lib/constants');
-const { storeId } = require('./lib/common');
+const { getXAppleStoreFront } = require('./lib/common');
 
 const methods = {
   app: require('./lib/app'),
@@ -14,7 +14,7 @@ const methods = {
   similar: require('./lib/similar'),
   reviews: require('./lib/reviews'),
   ratings: require('./lib/ratings'),
-  storeId,
+  getXAppleStoreFront,
 };
 
 function memoized (opts) {
