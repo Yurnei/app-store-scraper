@@ -16,6 +16,7 @@ const methods = {
   reviews: require('./lib/reviews'),
   ratings: require('./lib/ratings'),
   getXAppleStoreFront,
+  versionHistory: require('./lib/version-history')
 };
 
 function memoized (opts) {
